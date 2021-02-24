@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; /*обнуление стандартных падингов */
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #926239;
+  line-height: 1.6;
+ 
+}
+#showcase {
+  padding-top: 40vh;
+  height: 100vh;
+
+  background-image: url(../img/beachshowcase.jpg);
+  background-size: cover;
+  background-position: bottom;
+
+  text-align: center;
+}
+.showcase-title{
+  font-size: 50px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.showcase-content{
+  font-size: 20px;
+}
+
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 1px solid #926239;
+  border-radius: 10px;
+  font-size: 18px;
+
+  text-decoration: none; /*убрать подчеркивание ссылки*/
+  color: inherit; /*наследование цвета у родителя*/
+  text-transform: capitalize; /*каждое слово сч большой буквы*/
+}
+
+.content-padding { 
+  padding: 20px;
+}
+
+.bg-brown{
+  background-color: #926239;
+  color: white;
+}
+
+.inline-block{
+  display:inline-block;
+  width: 33.33333%;
+  height: 200px;
+  vertical-align: top; /*вертикальное позицианированние строчных элементов */
+}
